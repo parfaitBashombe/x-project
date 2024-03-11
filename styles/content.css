@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 1px;
+  left: 600px;
+  right: 500px;
+  border: 3px rgb(36, 35, 35) solid;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  width: 700px;
+  height: 40px;
+}
+
+.header img {
+  background-color: rgb(4, 4, 56);
+  height: 20px;
+  width: 25px;
+}
