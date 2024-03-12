@@ -13,12 +13,57 @@
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
   width: 700px;
-  height: 40px;
+  height: 50px;
 }
 
 .header img {
   height: 20px;
   width: 25px;
+}
+
+.recommendation,
+.following {
+  flex: 1;
+  height: 100%;
+  padding: 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.recommendation:hover,
+.following:hover,
+.setting:hover {
+  background-color: rgb(211, 208, 208);
+}
+
+.setting {
+  position: relative;
+  width: 60px;
+  height: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+}
+
+.setting:hover .tooltip {
+  opacity: 1;
+}
+
+.setting .tooltip {
+  position: absolute;
+  bottom: -10px;
+  left: 59px;
+  font-size: 12px;
+  padding: 5px 6px;
+  background-color: rgb(104, 101, 101);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  white-space: nowrap;
+  opacity: 0;
+  transition: 0.5;
+  border-radius: 7px;
 }
 
 .post-content-container {
@@ -33,7 +78,6 @@
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
   width: 700px;
-  background-color: red;
 }
 
 .post-input {
@@ -66,6 +110,17 @@
   flex-direction: column;
 }
 
+.everyone {
+  width: 150px;
+  padding: 2px 3px;
+  color: rgb(16, 175, 238);
+}
+
+.everyone:hover {
+  background-color: rgba(16, 175, 238, 0.5);
+  border-radius: 8px;
+}
+
 .post-input-2-container {
   position: relative;
   display: flex;
@@ -85,6 +140,40 @@
   width: 20px;
 }
 
+.post-input-2,
+.picture {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 8px 5px;
+  border-radius: 8px;
+}
+
+.post-input-2:hover,
+.picture:hover {
+  background-color: rgb(179, 169, 169);
+}
+
+.post-input-2:hover .tooltip,
+.picture:hover .tooltip {
+  opacity: 1;
+}
+
+.post-input-2 .tooltip,
+.picture .tooltip {
+  position: absolute;
+  bottom: -30px;
+  font-size: 12px;
+  padding: 5px 6px;
+  background-color: rgb(104, 101, 101);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  white-space: nowrap;
+  opacity: 0;
+  transition: 0.5;
+  border-radius: 7px;
+}
+
 .picture img {
   height: 40px;
 }
@@ -99,9 +188,13 @@
   display: flex;
   align-items: center;
   font-size: 16px;
-  background-color: blue;
+  background-color: rgb(16, 175, 238);
   padding: 8px 50px;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
   font-weight: 600;
+}
+
+.post-button-content:hover {
+  background-color: rgb(27, 157, 209);
 }
