@@ -20,3 +20,47 @@
   height: 20px;
   width: 25px;
 }
+
+.post-content-container {
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 70px;
+  left: 600px;
+  right: 500px;
+  border: 3px rgb(36, 35, 35) solid;
+  padding: 30px 9px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  width: 700px;
+  height: 60px;
+}
+
+.post-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5px;
+  background-color: blueviolet;
+  height: 80px;
+}
+
+.post-input input {
+  height: 40px;
+}
+
+.post-input img {
+  height: 50px;
+  width: 50px;
+  border-radius: 30px;
+}
+
+.post-input-2 img {
+  height: 30px;
+  width: 20px;
+}
