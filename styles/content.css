@@ -23,10 +23,6 @@
 
 .post-content-container {
   background-color: red;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
   position: absolute;
   top: 70px;
   left: 600px;
@@ -37,13 +33,11 @@
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
   width: 700px;
-  height: 60px;
 }
 
 .post-input {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
   padding: 0 5px;
   background-color: blueviolet;
@@ -52,15 +46,59 @@
 
 .post-input input {
   height: 40px;
+  border: none;
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .post-input img {
   height: 50px;
   width: 50px;
   border-radius: 30px;
+  margin: 0px 20px 1px 1px;
+}
+
+.post-input-field {
+  display: flex;
+  flex-direction: column;
+  background-color: green;
+}
+
+.post-input-2-container {
+  position: relative;
+  display: flex;
+  flex: row;
+  background-color: greenyellow;
+  align-items: center;
+}
+
+.post-input-2-container div {
+  padding: 1px 5px;
 }
 
 .post-input-2 img {
-  height: 30px;
+  height: 20px;
   width: 20px;
+}
+
+.picture img {
+  height: 40px;
+}
+
+.post-button-content {
+  position: absolute;
+  top: 7px;
+  right: 10px;
+  bottom: 10px;
+  border-radius: 15px;
+  border: none;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  background-color: blue;
+  padding: 8px 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: 600;
 }
