@@ -3,3 +3,7 @@ body {
   color: rgba(0, 0, 0, 0.8);
   background-color: rgb(252, 248, 248);
 }
+
+body .tooltip {
+  pointer-events: none;
+}
