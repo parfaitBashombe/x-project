@@ -3,9 +3,9 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(252, 248, 248);
+  background-color: rgba(252, 248, 248, 0.9);
   position: fixed;
-  top: 1px;
+  top: 0px;
   left: 600px;
   right: 500px;
   border: 1px rgb(36, 35, 35) solid;
