@@ -1,7 +1,7 @@
 .side-bar2-container {
   position: fixed;
   top: 1px;
-  right: 170px;
+  left: 1350px;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
@@ -48,8 +48,8 @@
 }
 
 .follow-section {
-  background-color: blue;
-  padding: 4px 0px;
+  background-color: rgb(177, 177, 177);
+  padding: 4px 0;
   border-radius: 15px;
 }
 
@@ -57,14 +57,14 @@
   color: black;
 }
 
-.author-id {
+.follow-section .author-id {
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: 341px;
 }
 
 .author-id:hover {
-  background-color: aqua;
+  background-color: rgb(223, 220, 220);
 }
 
 .follow-section .descript {
@@ -78,5 +78,7 @@
   background-color: yellowgreen;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   padding: 2px;
 }
