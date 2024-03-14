@@ -1,36 +1,82 @@
 .side-bar2-container {
-  position: absolute;
+  position: fixed;
   top: 1px;
-  right: 200px;
+  right: 170px;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
   padding: 10px 5px 10px 20px;
   background-color: red;
-  width: 300px;
+  width: 350px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+}
+
+.title {
+  font-size: 23px;
+  font-weight: bolder;
+  color: rgb(107, 107, 107);
+  margin-bottom: 20px;
 }
 
 .search-section {
   display: flex;
   align-items: center;
-  background-color: green;
   border-radius: 20px;
   height: 37px;
+  margin-bottom: 50px;
+  background-color: rgb(207, 207, 207);
 }
 
 .search-section img {
-  height: 25px;
+  height: 21px;
   width: 35px;
   padding: 0px 5px;
   border-radius: 20px;
 }
 
 .search-section input {
-  height: 25px;
+  height: 35px;
   border-radius: 20px;
+  font-size: 15px;
   border: none;
   color: rgb(229, 230, 231);
+  background-color: rgb(207, 207, 207);
+  flex: 1;
+  padding-left: 15px;
+}
+
+.follow-section {
+  background-color: blue;
+  padding: 4px 0px;
+  border-radius: 15px;
+}
+
+.name {
+  color: black;
+}
+
+.author-id {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.author-id:hover {
+  background-color: aqua;
+}
+
+.follow-section .descript {
+  display: flex;
+  flex-direction: column;
+  color: rgb(148, 148, 148);
+  margin-right: 5px;
+}
+
+.follow-section .author-name {
+  background-color: yellowgreen;
+  display: flex;
+  flex-direction: row;
+  padding: 2px;
 }
