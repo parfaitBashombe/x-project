@@ -47,10 +47,12 @@
   padding-left: 15px;
 }
 
-.follow-section {
+.follow-section,
+.trend-section {
   background-color: rgb(177, 177, 177);
-  padding: 4px 0;
+  padding: 4px 0 0 0;
   border-radius: 15px;
+  margin-bottom: 20px;
 }
 
 .name {
@@ -63,7 +65,9 @@
   width: 341px;
 }
 
-.author-id:hover {
+.author-id:hover,
+.show-more:hover,
+.trend-container:hover {
   background-color: rgb(223, 220, 220);
 }
 
@@ -75,10 +79,31 @@
 }
 
 .follow-section .author-name {
-  background-color: yellowgreen;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 2px;
+}
+
+.show-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  color: rgb(25, 160, 223);
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+.trend-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 15px;
+  padding: 10px 5px;
+}
+
+.city {
+  font-weight: bolder;
 }
