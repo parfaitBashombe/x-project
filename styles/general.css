@@ -9,6 +9,14 @@ body .tooltip {
   transition: opacity 1s;
 }
 
+input:focus {
+  outline-width: 0;
+}
+
+input::placeholder {
+  color: rgb(155, 155, 155);
+}
+
 @media only screen and (min-width: 992px) {
   body {
     padding-left: 593px;
