@@ -1,5 +1,5 @@
 .side-bar2-container {
-  position: fixed;
+  position: absolute;
   top: 1px;
   left: 1350px;
   font-size: 20px;
@@ -44,7 +44,6 @@
   border-radius: 20px;
   font-size: 15px;
   border: none;
-
   background-color: rgb(207, 207, 207);
   flex: 1;
   padding-left: 15px;
@@ -103,8 +102,6 @@
   padding: 4px 0 0 0;
   border-radius: 15px;
   margin-bottom: 20px;
-  position: sticky;
-  top: 50px;
 }
 
 .trend-container {
