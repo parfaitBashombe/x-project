@@ -3,11 +3,9 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  top: 0;
   background-color: rgba(252, 248, 248, 0.9);
-  position: fixed;
-  top: 0px;
-  left: 600px;
-  right: 500px;
   border: 1px rgb(36, 35, 35) solid;
   padding: 0 18px 0 0;
   font-size: 15px;
@@ -70,10 +68,6 @@
 }
 
 .post-content-container {
-  position: absolute;
-  top: 35px;
-  left: 592px;
-  right: 500px;
   border: 1px rgb(36, 35, 35) solid;
   border-top: none;
   padding: 10px 9px;
