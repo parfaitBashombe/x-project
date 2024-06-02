@@ -17,9 +17,9 @@ input::placeholder {
   color: rgb(155, 155, 155);
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 952px) {
   body {
-    padding-left: 592px;
+    padding-left: 500px;
   }
 
   .sidebar1 {
