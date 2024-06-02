@@ -1,7 +1,7 @@
 body {
   position: relative;
   color: rgba(0, 0, 0, 0.8);
-  background-color: rgb(252, 248, 248);
+  background-color: rgb(0,0,0);
 }
 
 body .tooltip {
